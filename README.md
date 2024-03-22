@@ -21,10 +21,10 @@ And finally, the **operating system** such as Windows, Android and mbedOS, Mac O
     
 **Thumb** instructions are subset of ARM, also work on 32 bits data, however 16 bit wide. Fo example, adding two 32 bits numbers together can be done in two ways:   
 ```asm
-# ARM
+; ARM
 ADD r0,r0,r2 
 
-# Thumb
+; Thumb
 ADD r0,r2
 ```  
    
