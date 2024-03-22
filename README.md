@@ -21,10 +21,10 @@ And finally, the **operating system** such as Windows, Android and mbedOS, Mac O
     
 **Thumb** instructions are subset of ARM, also work on 32 bits data, however 16 bit wide. Fo example, adding two 32 bits numbers together can be done in two ways:   
 ```asm
-// ARM
+# ARM
 ADD r0,r0,r2 
 
-// Thumb
+# Thumb
 ADD r0,r2
 ```  
    
@@ -41,6 +41,7 @@ Below are some pre-defined registered names, and most assemblies have a set of r
 > [!NOTE]
 >  You should note that we can declare our own names just like we can create variable names in C language.		 
     
+|                   |		    
 |:-----------------:|
 | r0-r15 or R0-R15  |
 | a1-a4             |
@@ -94,7 +95,7 @@ These are assembly operators so primitive operations can be performed on data be
 | A-B  | A-B  | Substract A from B |
 | A:AND:B  | A&B  | Bitwise AND of A and B |
 | A:EOR:B  | A^B  | Bitwise exclusive OR of A and B |
-| A:OR:B  | A|B  | Bitwise OR of A and B |   		
+| A:OR:B  | A<span>|</span>B  | Bitwise OR of A and B |   		
 	
    
 	 
