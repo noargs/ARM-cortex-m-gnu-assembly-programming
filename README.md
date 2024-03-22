@@ -95,7 +95,7 @@ These are assembly operators so primitive operations can be performed on data be
 | A-B  | A-B  | Substract A from B |
 | A:AND:B  | A&B  | Bitwise AND of A and B |
 | A:EOR:B  | A^B  | Bitwise exclusive OR of A and B |
-| A:OR:B  | A<span>|</span>B  | Bitwise OR of A and B |   		
+| A:OR:B  | A\|B  | Bitwise OR of A and B |   		
 	
    
 	 
