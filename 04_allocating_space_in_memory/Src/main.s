@@ -11,7 +11,7 @@
 __main:
   ldr r0,=A      /* point r0 to mem location A */
   mov r1,#5
-  str r1,[r0]    /* store content of r1 into address poined t by r0 */
+  str r1,[r0]    /* store content of r1 into address poined to by r0 */
 
   ldr r0,=D
   mov r1,#4
