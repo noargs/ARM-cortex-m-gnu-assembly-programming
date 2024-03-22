@@ -4,7 +4,11 @@
 .thumb
 .section	.text
 .global		__main
+.global		Reset_Handler
 
+Reset_Handler:
+	mov r1,#100
+	mov r2,#126
 
 __main:
 	mov r5,#45
